@@ -96,7 +96,7 @@ textarea {
    ========================================================================== */
 body{
     font-family: 'Sigmar One', cursive!important;
-    background-image:url("../img/back.jpg");
+    background-image:url("../img/back2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 	width: 100%;
@@ -105,6 +105,17 @@ body{
 
 p{
     font-family: 'Walter Turncoat', cursive!important;
+}
+
+.walter{
+    font-family: 'Walter Turncoat', cursive!important;
+    text-align: left;
+}
+
+.size{
+    font-size:1.5em;
+    font-weight: bold;
+    color:rgb(137, 231, 182)!important;
 }
 
 nav{
@@ -146,13 +157,17 @@ nav{
     font-size: 1.5em;
 }
 
-.content2{
-    background-image:url("../img/back.jpg");
+.inline2 p{
+    font-size: 1.2em;
+}
+
+/*.content2{
+    background-image:url("../img/back2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height:100%;
-}
+}*/
 
 #apropos{
     padding-top: 50px;
@@ -163,19 +178,33 @@ nav{
 }
 
 .btn-cv{
-    font-size: 2em!important;
-    padding-left: 50px!important;
-    padding-right: 50px!important;
+    font-size: 1.8em!important;
     border:solid 3px #333!important;
-    border-radius: 5px;
+    border-radius: 10px!important;
+}
+
+.btn-rea{
+    font-size: 0.9em!important;
+    border:solid 2px #333!important;
+    border-radius: 10px!important;
+    font-weight: bold!important;
+}
+
+.btn-rea:hover{
+    background-color:rgb(137, 231, 182)!important;
+}
+
+.solo{
+    border: solid 1px #333;
+    border-radius: 10px;
 }
 
 .footer {
-    background-image: url("../img/back.jpg");
+    /*background-image: url("../img/back2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height:100%;
+    height:100%;*/
     text-align: center;
 }
 
@@ -193,6 +222,23 @@ nav{
     color:#333;
 }
 
+.fa-github-square:hover{
+    background-color: rgb(137, 231, 182)!important;
+    border-radius: 10px;
+    border:solid 1px #333;
+}
+
+.fa-twitter-square:hover{
+    background-color: rgb(137, 231, 182)!important;
+    border-radius: 10px;
+    border:solid 1px #333;
+}
+
+.fa-facebook-square:hover{
+    background-color: rgb(137, 231, 182)!important;
+    border-radius: 10px;
+    border:solid 1px #333;
+}
 
 /*--------------------------css cv------------------------------------------*/
 kbd{
@@ -235,12 +281,20 @@ font-family: 'Walter Turncoat', cursive;
     background-color:rgb(137, 231, 182)!important;
 }
 
+.inline{
+    display:inline;!important;
+}
+
 .inline1{
-    float:left;
+    float:left!important;
 }
 
 .inline2{
-    float:right
+    float:right!important;
+}
+
+.bloc{
+    display:block;
 }
 
 
