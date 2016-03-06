@@ -118,6 +118,10 @@ p{
     color:rgb(137, 231, 182)!important;
 }
 
+.bold{
+    font-weight: bold;
+}
+
 nav{
     width: 100%;
     padding-left: 30px;
