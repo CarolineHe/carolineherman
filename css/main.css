@@ -96,9 +96,9 @@ textarea {
    ========================================================================== */
 body{
     font-family: 'Sigmar One', cursive!important;
-    background-image:url("../img/back2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    /*background-image:url("../img/back2.jpg");*/
+    /*background-repeat: no-repeat;
+    background-size: cover;*/
 	width: 100%;
     height:100%;
 }
@@ -112,12 +112,6 @@ p{
     text-align: left;
 }
 
-.size{
-    font-size:1.5em;
-    font-weight: bold;
-    color:rgb(137, 231, 182)!important;
-}
-
 .bold{
     font-weight: bold;
 }
@@ -126,23 +120,25 @@ nav{
     width: 100%;
     padding-left: 30px;
     padding-right: 50px;
-    font-family: 'Sigmar One', cursive!important;
+    font-family: 'Walter Turncoat', cursive!important;
 }
 
 .navbar-btn{
     /*background-color:rgb(137, 231, 182)!important;*/
     border:solid 1px #333!important;
     border-radius: 5px;
-    font-family: 'Sigmar One', cursive!important;
+    font-family: 'Walter Turncoat', cursive!important;
+    background-color:rgb(137, 231, 182)!important;
 }
 
 .navbar-btn:hover{
-    background-color:rgb(137, 231, 182)!important;
+    background-color:rgba(125, 233, 177, 0.64)!important;
 }
 
 .img-btn{
     border:solid 1px #333!important;
     border-radius: 5px;
+    background-color:rgb(137, 231, 182)!important;
 }
 
 .img-responsive{
@@ -166,6 +162,32 @@ height: auto;
 .after-box {
   clear: left;
 }
+
+/*css slide images*/
+.slideshow {
+   width: 1200px;
+   height: 50px;
+   overflow: hidden;
+   border: 3px solid #F2F2F2;
+}
+
+.slideshow ul {
+    /* 13 images donc 13 x 100% */
+   width: 1300%;
+   height: 50px;
+   padding:0; margin:0;
+   list-style: none;
+}
+.slideshow li {
+   float: left;
+}
+
+.center{
+    margin-left: auto;
+  margin-right: auto;
+  width:1200;
+}
+
 
 #header2{
     padding-top: 80px;
@@ -203,9 +225,12 @@ height: auto;
 }
 
 .btn-cv{
-    font-size: 1.8em!important;
+    font-size: 1.7em!important;
+    font-weight: lighter!important;
     border:solid 3px #333!important;
     border-radius: 10px!important;
+    background-color:rgb(137, 231, 182)!important;
+    font-family: 'Sigmar One', cursive!important;
 }
 
 .btn-rea{
@@ -213,10 +238,11 @@ height: auto;
     border:solid 2px #333!important;
     border-radius: 10px!important;
     font-weight: bold!important;
+    background-color:rgb(137, 231, 182)!important;
 }
 
 .btn-rea:hover{
-    background-color:rgb(137, 231, 182)!important;
+    background-color:rgba(125, 233, 177, 0.64)!important;
 }
 
 .solo{
@@ -255,23 +281,23 @@ height: auto;
     color:#333;
 }
 
-.fa-github-square:hover{
-    background-color: rgb(137, 231, 182)!important;
+/*.fa-github-square:hover{
+    background-color:rgb(137, 231, 182)!important;
     border-radius: 10px;
     border:solid 1px #333;
 }
 
 .fa-twitter-square:hover{
-    background-color: rgb(137, 231, 182)!important;
+    background-color:rgb(137, 231, 182)!important;
     border-radius: 10px;
     border:solid 1px #333;
 }
 
 .fa-facebook-square:hover{
-    background-color: rgb(137, 231, 182)!important;
+    background-color:rgba(232, 139, 86, 0.93)!important;
     border-radius: 10px;
     border:solid 1px #333;
-}
+}*/
 
 /*--------------------------css cv------------------------------------------*/
 kbd{
@@ -311,7 +337,7 @@ font-family: 'Walter Turncoat', cursive;
 }
 
 .kbd2:hover{
-    background-color:rgb(137, 231, 182)!important;
+    background-color:rgba(125, 233, 177, 0.64)!important;
 }
 
 .inline{
