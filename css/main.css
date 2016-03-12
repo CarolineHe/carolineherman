@@ -101,7 +101,7 @@ body{
 }
 
 h1{
-    font-size: 6vw!important;
+    font-size: 5vw!important;
 }
 
 p{
@@ -127,21 +127,23 @@ nav{
 }
 
 .navbar-btn{
-    /*background-color:rgb(137, 231, 182)!important;*/
-    border:solid 1px #333!important;
+    color:#fff!important;
+    border:solid 1px #fff!important;
     border-radius: 5px;
     font-family: 'Walter Turncoat', cursive!important;
-    background-color:rgb(137, 231, 182)!important;
+    background-color:rgb(127, 207, 165)!important;
 }
 
 .navbar-btn:hover{
     background-color:white!important;
+    color:#333!important;
+    border:solid 1px #333!important;
 }
 
 .img-btn{
+    margin-top: 10px!important;
     border:solid 1px #333!important;
     border-radius: 5px;
-    background-color:rgb(137, 231, 182)!important;
 }
 
 .img-responsive{
@@ -240,9 +242,19 @@ height: auto;
     font-weight: lighter!important;
     border:solid 3px #333!important;
     border-radius: 10px!important;
-    background-color:rgb(137, 231, 182)!important;
+    background-color:rgb(127, 207, 165)!important;
     font-family: 'Sigmar One', cursive!important;
 }
+
+.fab{
+    color:#333!important;
+    float:right;
+}
+
+footer {
+	clear: both;
+}
+
 
 /*------css btn-cv-------*/
 
@@ -410,7 +422,7 @@ height: auto;
     border:solid 2px #333!important;
     border-radius: 10px!important;
     font-weight: bold!important;
-    background-color:rgb(137, 231, 182)!important;
+    background-color:rgb(127, 207, 165)!important;
 }
 
 .btn-rea:hover{
@@ -441,6 +453,7 @@ footer {
     background-color:#4e4b4b!important;
     text-align: center;
     color:white;
+    border-radius:15px;
 }
 
 .contacticon {
@@ -448,6 +461,7 @@ footer {
     font-size: 1.8em;
     text-align: center;
 }
+
 
 .mail {
     font-size: 1.3em;
@@ -458,10 +472,31 @@ footer {
 }
 
 .fa:hover{
-    color:rgb(137, 231, 182)!important;
+    color:rgb(127, 207, 165)!important;
     border-radius: 10px;
 }
 
+.rotate{
+-webkit-transition-duration: 0.8s;
+-moz-transition-duration: 0.8s;
+-o-transition-duration: 0.8s;
+transition-duration: 0.8s;
+
+-webkit-transition-property: -webkit-transform;
+-moz-transition-property: -moz-transform;
+-o-transition-property: -o-transform;
+transition-property: transform;
+
+overflow:hidden;
+
+}
+
+.rotate:hover
+{
+-webkit-transform:rotate(360deg);
+-moz-transform:rotate(360deg);
+-o-transform:rotate(360deg);
+}
 
 
 /*---------------------------css hover portefolio--------------------------*/
@@ -573,7 +608,7 @@ footer {
 
 .ch-info {
 	position: absolute;
-	background: rgba(42, 71, 71, 0.8);
+	background: #4e4b4b;
 	width: inherit;
 	height: inherit;
 	border-radius: 50%;
@@ -641,7 +676,7 @@ footer {
 /*--------------------------css cv------------------------------------------*/
 kbd{
 font-family: 'Walter Turncoat', cursive!important;
-color:rgb(137, 231, 182)!important;
+color:rgb(127, 207, 165)!important;
 }
 
 .content2{
@@ -696,6 +731,14 @@ font-family: 'Walter Turncoat', cursive;
     display:block;
 }
 
+.mar{
+    margin:0 5px;
+}
+
+#contact{
+    margin-top: 30px;
+}
+
 
 /*/////////////////////////////screen 499 px////////////////////////*/
 @media screen and (max-width: 499px) {
@@ -705,6 +748,13 @@ font-family: 'Walter Turncoat', cursive;
         text-align: center;
     }
 
+    .img-btn{
+        margin-bottom: 5px;
+        border:solid 1px #333!important;
+        border-radius: 5px;
+    }
+
+
     .mail {
         padding-top: 10px;
         font-size: 0.9em;
@@ -713,7 +763,7 @@ font-family: 'Walter Turncoat', cursive;
 
     .section-heading{
         text-align: center;
-        font-size: 1.5em
+        font-size: 1.3em;
     }
 
     .walter{
@@ -721,6 +771,15 @@ font-family: 'Walter Turncoat', cursive;
         text-align:left;
 
     }
+
+    h1{
+        font-size: 10vw!important;
+    }
+
+    h2{
+        font-size: 7vw!important;
+    }
+
 
     .navbar-btn {
         display:inline;
@@ -732,16 +791,24 @@ font-family: 'Walter Turncoat', cursive;
         font-weight: lighter!important;
         border:solid 3px #333!important;
         border-radius: 10px!important;
-        background-color:rgb(137, 231, 182)!important;
+        background-color:rgb(127, 207, 165)!important;
         font-family: 'Sigmar One', cursive!important;
     }
 
 
 #contact{
-    padding-top: 30px;
+    padding-top: 10px;
+}
+
+footer {
+    padding-left: 5px!important;
+    padding-right: 5px!important;
 }
 
 }
+
+
+
 
     /*/////////////////////////////screen between 500px-1023px////////////////////////*/
     @media screen and (min-width: 500px) and (max-width: 1023px) {
