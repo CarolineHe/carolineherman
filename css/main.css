@@ -126,6 +126,11 @@ nav{
     background-color:rgba(230, 232, 229,0.5)!important;
 }
 
+.navbar-right a{
+    padding:10px 15px;
+    margin-top: 15px;
+}
+
 .navbar-btn{
     color:#fff!important;
     border:solid 1px #fff!important;
@@ -199,11 +204,18 @@ height: auto;
 
 
 #header2{
-    padding-top: 50px;
+    margin-top: 75px;
+    padding-top: 40px;
     background-color:#4e4b4b!important;
     padding-bottom: 50px;
     width: auto!important;
 }
+
+#header1{
+    background-color:#4e4b4b!important;
+    width: auto!important;
+}
+
 
  h2{
      text-align: center;
@@ -445,9 +457,6 @@ footer {
     max-height: 100%;
 }
 
-.marg{
-    margin-bottom: 30px;
-}
 
 footer {
     background-color:#4e4b4b!important;
@@ -739,6 +748,9 @@ font-family: 'Walter Turncoat', cursive;
     margin-top: 30px;
 }
 
+.img-btn{
+    margin-bottom:10px;
+}
 
 /*/////////////////////////////screen 499 px////////////////////////*/
 @media screen and (max-width: 499px) {
