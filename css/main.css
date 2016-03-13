@@ -766,7 +766,9 @@ overflow:hidden;
     background-color: rgba(#333333, 0.53);
 }
 
-
+.ch-img-i4 {
+	background-image: url(../img/couture1.png);
+}
 
 
 /*--------------------------css cv------------------------------------------*/
@@ -818,6 +820,15 @@ font-family: 'Walter Turncoat', cursive;
     color:#333!important;
 }
 
+.footcouture{
+    background-image: url(../img/backgroundjean.png)!important;
+    color:#fff!important;
+}
+
+.footcouture i{
+    color:#fff!important;
+}
+
 .kbd2{
     color:#333!important;
     background-color:white!important;
@@ -829,7 +840,7 @@ font-family: 'Walter Turncoat', cursive;
 }
 
 .inline{
-    display:inline;!important;
+    display:inline!important;
 }
 
 .inline1{
