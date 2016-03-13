@@ -365,7 +365,7 @@ footer {
     /*background-color: rgba(#333333, 0.53);*/
 }
 
-.ch-infoo h3 {
+/*.ch-infoo h3 {
     color: #fff;
 	letter-spacing: 2px;
 	font-size: 24px;
@@ -377,7 +377,7 @@ footer {
 		0 0 1px #fff,
 		0 1px 2px rgba(0,0,0,0.3);
     border-bottom: 1px solid rgba(255,255,255,0.5);
-}
+}*/
 
 .ch-infoo h2 {
     color: #4e4b4b;
@@ -396,7 +396,7 @@ footer {
     color: #fff;
 	padding: 10px 5px;
 	font-style: italic;
-	margin: 0 30px;
+	margin: 30px;
 	font-size: 12px;
 }
 
@@ -406,7 +406,8 @@ footer {
     color: rgba(255,255,255,0.7);
     font-style: normal;
     font-weight: 700;
-    font-size: 15px;
+    vertical-align: middle;
+    font-size: 18px;
     letter-spacing: 1px;
     font-family:'Walter Turncoat', cursive!important;
 }
