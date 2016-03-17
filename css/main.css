@@ -557,10 +557,11 @@ overflow:hidden;
 		inset 0 0 0 16px rgba(255,255,255,0.6),
 		0 1px 2px rgba(0,0,0,0.1);
 	transition: all 0.4s ease-in-out;
+    background-size: cover;
 }
 
 .ch-img-1 {
-	background-image: url(../img/gitcapture.png);
+	background-image: url(../img/gitcapt.png);
 }
 
 .ch-img-2 {
@@ -584,7 +585,7 @@ overflow:hidden;
 }
 
 .ch-img-7 {
-	background-image: url(../img/jeubatonnetscapt.png);
+	background-image: url(../img/jeubatonnetcapt.png);
 }
 
 .ch-img-8 {
@@ -596,7 +597,7 @@ overflow:hidden;
 }
 
 .ch-img-10 {
-	background-image: url(../img/skillcodecapt.png);
+	background-image: url(../img/skillcode.png);
 }
 
 .ch-img-11 {
@@ -608,15 +609,15 @@ overflow:hidden;
 }
 
 .ch-img-13 {
-	background-image: url(../img/jeancapt.png);
+	background-image: url(../img/couturecapt.png);
 }
 
 .ch-img-14 {
-    background-image: url(../img/grislight.jpg);
+    background-image: url(../img/bisounours.png);
 }
 
 .ch-img-15 {
-	background-image: url(../img/histoiresARcapt.png);
+	background-image: url(../img/histoireARcapt.png);
 }
 
 
