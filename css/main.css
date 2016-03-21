@@ -104,11 +104,6 @@ h1{
     font-size: 5vw!important;
 }
 
-p{
-    font-family: 'Walter Turncoat', cursive!important;
-
-}
-
 .walter{
     font-family: 'Walter Turncoat', cursive!important;
     text-align: left;
@@ -275,8 +270,8 @@ footer {
 /*------css btn-cv-------*/
 
 .ch-gridd {
-	margin: 20px 0 0 0;
-	padding: 0;
+	margin: 50px 0 0 0;
+	padding: 0px;
 	list-style: none;
 	display: block;
 	text-align: center;
@@ -299,6 +294,7 @@ footer {
 	height: 230px;
 	display: inline-block;
 	margin: 20px;
+    margin-top:100px;
 }
 
 .ch-itemm {
@@ -618,6 +614,10 @@ overflow:hidden;
 	background-image: url(../img/histoireARcapt.png);
 }
 
+.ch-img-16 {
+	background-image: url(../img/lagamellecapt.png);
+}
+
 
 .ch-info {
 	position: absolute;
@@ -869,6 +869,16 @@ font-family: 'Walter Turncoat', cursive;
 
 /*/////////////////////////////screen 499 px////////////////////////*/
 @media screen and (max-width: 499px) {
+
+    .ch-gridd {
+    	margin: 5px 0 0 0;
+    	padding: 0px;
+    	list-style: none;
+    	display: block;
+    	text-align: center;
+    	width: 100%;
+    }
+
     .contacticon {
         display:inline-block;
         font-size: 1.3em;
