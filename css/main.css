@@ -996,7 +996,7 @@ footer {
     /*/////////////////////////////screen between 1024px and more///////////////////////*/
     @media screen and (min-width: 1024px) {
          .psize{
-             font-size:1.7em;
+             font-size:1.5em;
              text-align: justify;
          }
     }
