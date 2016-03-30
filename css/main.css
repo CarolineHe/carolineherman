@@ -896,6 +896,11 @@ font-family: 'Walter Turncoat', cursive;
         font-size: 7vw!important;
     }
 
+    h3{
+        text-align: center!important;
+        font-size: 5vw!important;
+    }
+
     .navbar-btn {
         display:inline;
         width: 50%;
@@ -990,6 +995,10 @@ footer {
 
     /*/////////////////////////////screen between 500px-1023px////////////////////////*/
     @media screen and (min-width: 500px) and (max-width: 1023px) {
+        .kbd2{
+            font-size:5vw!important;
+        }
+
     }
 
 
