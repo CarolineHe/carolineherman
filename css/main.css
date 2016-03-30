@@ -104,6 +104,10 @@ h1{
     font-size: 5vw!important;
 }
 
+p{
+    text-align: justify;
+}
+
 .walter{
     font-family: 'Walter Turncoat', cursive!important;
     text-align: left;
