@@ -900,6 +900,10 @@ font-family: 'Walter Turncoat', cursive;
         font-size: 10vw!important;
     }
 
+.tlt{
+        font-size: 10vw!important;
+}
+
     h2{
         font-size: 7vw!important;
     }
@@ -933,7 +937,7 @@ footer {
 }
 
 .ch-grid {
-	margin: 40px 0;
+	margin: 40px 0 0 0;
 	padding: 0;
 	list-style: none;
 	display: block;
@@ -942,8 +946,8 @@ footer {
 }
 
 .ch-grid li {
-	width: 200px;
-	height: 200px;
+	width: 250px;
+	height: 250px;
 	display: inline-block;
 	margin: 10px;
     padding:10px 0;
@@ -977,11 +981,11 @@ footer {
 
 .ch-info h3 {
 	color: #fff;
-	letter-spacing: 2px;
-	font-size: 20px;
+	letter-spacing: 1px;
+	font-size: 18px;
 	margin: 0 10px;
-	padding: 45px 0 0 0;
-	height: 95px;
+	padding: 40px 0 0 0;
+	height: 100px;
 	font-family: 'Walter Turncoat', cursive;
 	text-shadow:
 		0 0 1px #fff,
