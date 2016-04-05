@@ -99,6 +99,7 @@ textarea {
                                 PAGE : INDEX
 *****************************************************************************/
 
+/*************************** GENERAL *************************/
 body{
     font-family: 'Sigmar One', cursive!important;
 	width: 100%;
@@ -109,25 +110,68 @@ h1{
     font-size: 5vw!important;
 }
 
+h2, h3{
+    text-align: center;
+    font-family: 'Sigmar One', cursive!important;
+}
+
+h4{
+font-family: 'Walter Turncoat', cursive;
+}
+
 p{
     text-align: justify;
+    text-align: center;
 }
 
-.walter{
-    font-family: 'Walter Turncoat', cursive!important;
-    text-align: left;
+.img-responsive{
+    max-width: 100%;
+    height: auto;
 }
 
-.bold{
-    font-weight: bold;
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
 }
 
+.right{
+    text-align:right;
+}
+
+.left{
+    text-align:left;
+}
+
+.inline1{
+    float:left!important;
+}
+
+.inline2{
+    float:right!important;
+}
+
+#header1{
+    background-color:#4e4b4b!important;
+    width: auto!important;
+}
+
+
+/*************************** NAVBAR *************************/
 nav{
     width: 100%;
     padding-left: 30px;
     padding-right: 50px;
     font-family: 'Walter Turncoat', cursive!important;
     background-color:rgba(230, 232, 229,0.5)!important;
+}
+
+#apropos{
+    padding-top: 50px;
+}
+
+#portfolio{
+    padding-top: 50px;
 }
 
 .navbar-right a{
@@ -153,58 +197,13 @@ nav{
     margin-top: 10px!important;
 }
 
-.img-responsive{
-max-width: 100%;
-height: auto;
-/*display:block;*/
-}
-
 .imglogo{
     border: solid 1px white;
     border-radius: 5px;
 }
 
-.box {
-  float: left;
-  width: 75px;
-  height: 50px;
-  margin: 0 auto;
-  padding-left: 15px;
-}
-.after-box {
-  clear: left;
-}
 
-.item{
-    width:100%;
-}
-
-/*css slide images*/
-.slideshow {
-   width: 100%;
-   height: 50px;
-   overflow: hidden;
-   border: 3px solid #F2F2F2;
-}
-
-.slideshow ul {
-    /* 13 images donc 13 x 100% */
-   width: 100%;
-   height: 50px;
-   padding:0; margin:0;
-   list-style: none;
-}
-.slideshow li {
-   float: left;
-}
-
-.center{
-    margin-left: auto;
-  margin-right: auto;
-  width:100%;
-}
-
-
+/*************************** CONTENT *************************/
 #header2{
     padding-top: 70px;
     background-color:#4e4b4b!important;
@@ -212,71 +211,11 @@ height: auto;
     width: auto!important;
 }
 
-#header1{
-    background-color:#4e4b4b!important;
-    width: auto!important;
-}
-
-#header3{
-    padding-top: 70px;
-    /*background-color:#4e4b4b!important;*/
-    background-image:url(../img/backgroundjean.png);
-    padding-bottom: 50px;
-    width: auto!important;
-}
-
- h2{
-     text-align: center;
- }
-
 .content1{
      padding: 20px;
 }
 
-.inline{
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-    margin: 0 5px;
-}
-
-#apropos{
-    padding-top: 50px;
-}
-
-#portfolio{
-    padding-top: 50px;
-}
-
-.grey{
-    background-color:#4e4b4b!important;
-}
-
-.white{
-    background-color:white!important;
-}
-
-.btn-cv{
-    width: 200px;
-    /*font-size: 1.7em!important;*/
-    font-weight: lighter!important;
-    border:solid 3px #333!important;
-    border-radius: 10px!important;
-    background-color:rgb(127, 207, 165)!important;
-    font-family: 'Sigmar One', cursive!important;
-}
-
-.fab{
-    color:#333!important;
-    float:right;
-}
-
-footer {
-	clear: both;
-}
-
-/*------css btn-cv-------*/
-
+/*************************** BTN CV AND GITHUB *************************/
 .ch-gridd {
 	margin: 50px 0 0 0;
 	padding: 0px;
@@ -363,7 +302,6 @@ footer {
 
 .ch-img-a {
 	background-image: url(../img/back.jpg);
-    /*background-color: rgba(#333333, 0.53);*/
 }
 
 .ch-infoo h2 {
@@ -422,96 +360,16 @@ footer {
     opacity: 1;
 }
 
-/*----------------------------------------*/
 
-.btn-rea{
-    font-size: 0.9em!important;
-    border:solid 2px #333!important;
-    border-radius: 10px!important;
-    font-weight: bold!important;
-    background-color:rgb(127, 207, 165)!important;
-}
-
-.btn-rea:hover{
-    background-color:rgba(125, 233, 177, 0.64)!important;
-}
-
-.solo{
-    border: solid 1px #333;
-    border-radius: 10px;
-}
-
-.space{
-    width: 100%;
-    height:180px;
-    margin-bottom:10px;
-}
-
-.all{
-    max-width:100%;
-    max-height: 100%;
-}
-
-footer {
-    background-color:#4e4b4b!important;
-    text-align: center;
-    color:white;
-    border-radius:15px;
-}
-
-.contacticon {
-    display:inline-block;
-    font-size: 1.4em;
-    text-align: center;
-}
-
-.mail {
-    font-size: 1.3em;
-}
-
-.fa{
-    color:white;
-}
-
-.fa:hover{
-    color:rgb(127, 207, 165)!important;
-    border-radius: 10px;
-}
-
-.rotate{
--webkit-transition-duration: 0.8s;
--moz-transition-duration: 0.8s;
--o-transition-duration: 0.8s;
-transition-duration: 0.8s;
-
--webkit-transition-property: -webkit-transform;
--moz-transition-property: -moz-transform;
--o-transition-property: -o-transform;
-transition-property: transform;
-
-overflow:hidden;
-
-}
-
-.rotate:hover
-{
--webkit-transform:rotate(360deg);
--moz-transform:rotate(360deg);
--o-transform:rotate(360deg);
-}
-
-
-/*---------------------------css hover portfolio--------------------------*/
-
+/*************************** PORTFOLIO *************************/
 .ch-grid {
-	margin: 20px 0 0 0;
-	padding: 0;
-	list-style: none;
-	display: block;
-	text-align: center;
-	width: 100%;
+    margin: 20px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    text-align: center;
+    width: 100%;
 }
-
 
 .ch-grid:after,
 .ch-item:before {
@@ -524,13 +382,12 @@ overflow:hidden;
 }
 
 .ch-grid li {
-	width: 250px;
+    width: 250px;
 	height: 250px;
 	display: inline-block;
 	margin: 20px;
 }
 
-/*demo1*/
 .ch-item {
 	width: 100%;
 	height: 100%;
@@ -628,7 +485,6 @@ overflow:hidden;
 	margin: 0 15px;
 	padding: 70px 0 0 0;
 	height: 140px;
-	/*font-family: 'Walter Turncoat', cursive;*/
 	text-shadow:
 		0 0 1px #fff,
 		0 1px 2px rgba(0,0,0,0.3);
@@ -673,17 +529,107 @@ overflow:hidden;
 	opacity: 1;
 }
 
+.solo{
+    border: solid 1px #333;
+    border-radius: 10px;
+}
+
+
+/*************************** SLIDE LOGOS *************************/
+.slideshow {
+   width: 100%;
+   height: 50px;
+   overflow: hidden;
+   border: 3px solid #F2F2F2;
+}
+
+.slideshow ul {
+   width: 100%;
+   height: 50px;
+   padding:0; margin:0;
+   list-style: none;
+}
+.slideshow li {
+   float: left;
+}
+
+.white{
+    background-color:white!important;
+}
+
+
+/*************************** FOOTER *************************/
+.fab{
+    color:#333!important;
+    float:right;
+}
+
+#contact{
+    margin-top: 30px;
+}
+
+footer {
+    background-color:#4e4b4b!important;
+    text-align: center;
+    color:white;
+    border-radius:15px;
+    clear:both;
+}
+
+.contacticon {
+    display:inline-block;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.mail {
+    font-size: 1.3em;
+}
+
+.fa{
+    color:white;
+}
+
+.fa:hover{
+    color:rgb(127, 207, 165)!important;
+    border-radius: 10px;
+}
+
+.rotate{
+-webkit-transition-duration: 0.8s;
+-moz-transition-duration: 0.8s;
+-o-transition-duration: 0.8s;
+transition-duration: 0.8s;
+-webkit-transition-property: -webkit-transform;
+-moz-transition-property: -moz-transform;
+-o-transition-property: -o-transform;
+transition-property: transform;
+overflow:hidden;
+}
+
+.rotate:hover{
+-webkit-transform:rotate(360deg);
+-moz-transform:rotate(360deg);
+-o-transform:rotate(360deg);
+}
+
+
 
 
 /*****************************************************************************
                                 PAGE : CV
 *****************************************************************************/
-
+/*************************** CONTENT *************************/
 #header5{
     padding-top: 70px;
     background-image:url(../img/back.jpg);
     padding-bottom: 50px;
     width: auto!important;
+}
+
+.content2{
+    font-family: 'Walter Turncoat', cursive;
+    padding: 20px;
 }
 
 .style-link{
@@ -705,55 +651,12 @@ font-family: 'Walter Turncoat', cursive!important;
 color:rgb(127, 207, 165)!important;
 }
 
-.content2{
-    font-family: 'Walter Turncoat', cursive;
-    padding: 20px;
-}
-
 .p-left p{
     text-align: left;
 }
 
 .p-right{
     text-align: right!important;
-}
-
-h2, h3{
-    font-family: 'Sigmar One', cursive!important;
-}
-
-.right{
-    text-align:right;
-}
-
-.left{
-    text-align:left;
-}
-
-h3{
-    text-align:center;
-}
-
-h4{
-font-family: 'Walter Turncoat', cursive;
-}
-
-.footcv{
-    background-image: url(../img/back.jpg)!important;
-    color:#333!important;
-}
-
-.footcv i{
-    color:#333!important;
-}
-
-.footcouture{
-    background-image: url(../img/backgroundjean.png)!important;
-    color:#fff!important;
-}
-
-.footcouture i{
-    color:#fff!important;
 }
 
 .kbd2{
@@ -766,37 +669,36 @@ font-family: 'Walter Turncoat', cursive;
     background-color:rgba(125, 233, 177, 0.64)!important;
 }
 
-.inline{
-    display:inline!important;
+/*************************** FOOTER *************************/
+.footcv{
+    background-image: url(../img/back.jpg)!important;
+    color:#333!important;
 }
 
-.inline1{
-    float:left!important;
+.footcv i{
+    color:#333!important;
 }
 
-.inline2{
-    float:right!important;
-}
 
-.bloc{
-    display:block;
-}
-
-.mar{
-    margin:0 5px;
-}
-
-#contact{
-    margin-top: 30px;
-}
-
-.img-btn{
-    margin-bottom:10px;
-}
 
 /*****************************************************************************
                                 PAGE : COUTURE
 *****************************************************************************/
+/*************************** CONTENT *************************/
+#header3{
+    padding-top: 70px;
+    /*background-color:#4e4b4b!important;*/
+    background-image:url(../img/backgroundjean.png);
+    padding-bottom: 50px;
+    width: auto!important;
+}
+
+.inline{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin: 0 5px;
+}
 
 .img-hover div {
     -webkit-transition: all .3s ease; /* Safari and Chrome */
@@ -822,67 +724,14 @@ font-family: 'Walter Turncoat', cursive;
   filter: brightness(1.10) grayscale(100%);
 }
 
-.ch-ggrid {
-	margin: 20px 0 0 0;
-	padding: 0;
-	list-style: none;
-	display: block;
-	text-align: center;
-	width: 100%;
+/*************************** FOOTER *************************/
+.footcouture{
+    background-image: url(../img/backgroundjean.png)!important;
+    color:#fff!important;
 }
 
-.ch-ggrid:after,
-.ch-iitem:before {
-	content: '';
-    display: table;
-}
-
-.ch-ggrid:after {
-	clear: both;
-}
-
-.ch-ggrid li {
-	width: 300px;
-	height: 300px;
-	display: inline-block;
-	margin: 20px;
-}
-
-/*demo1*/
-.ch-iitem {
-	width: 100%;
-	height: 100%;
-	border-radius: 50%;
-	overflow: hidden;
-	position: relative;
-	cursor: default;
-	box-shadow:
-		inset 0 0 0 16px rgba(255,255,255,0.6),
-		0 1px 2px rgba(0,0,0,0.1);
-	transition: all 0.4s ease-in-out;
-}
-
-.ch-img-i1 {
-	background-image: url(../img/grislight.jpg);
-    background-color: rgba(#333333, 0.53);
-}
-
-.ch-img-i2 {
-	background-image: url(../img/grislight.jpg);
-    background-color: rgba(#333333, 0.53);
-}
-
-.ch-img-i3 {
-	background-image: url(../img/grislight.jpg);
-    background-color: rgba(#333333, 0.53);
-}
-
-.ch-img-i4 {
-	background-image: url(../img/couture1.png);
-}
-
-p{
-    text-align: center;
+.footcouture i{
+    color:#fff!important;
 }
 
 
@@ -891,49 +740,22 @@ p{
                         CSS RESPONSIVE : MEDIA QUERIES
 *****************************************************************************/
 
-
 /*/////////////////////////////screen 499 px////////////////////////*/
 @media screen and (max-width: 499px) {
-
-
-    .ch-gridd {
-    	margin: 20px 0 ;
-    	padding: 0px;
-    	list-style: none;
-    	display: block;
-    	text-align: center;
-    	width: 100%;
-    }
-
-    .contacticon {
-        display:inline-block;
-        font-size: 1.3em;
-        text-align: center;
-    }
-
+    /*************************** NAVBAR *************************/
     .img-btn{
         margin-bottom: 8px;
         width:60px;
         height:60px;
     }
 
-
-    .mail {
-        padding-top: 10px;
-        font-size: 0.9em;
-        text-align: center;
+    .navbar-btn {
+        font-size: 5vw!important;
+        display:block;
+        width:50%;
     }
 
-    .section-heading{
-        text-align: center;
-        font-size: 1.3em;
-    }
-
-    .walter{
-        font-size:1.1em!important;
-        text-align:left;
-    }
-
+    /*************************** CONTENT *************************/
     h1{
         font-size: 10vw!important;
     }
@@ -948,10 +770,18 @@ p{
         font-size: 5vw!important;
     }
 
-    .navbar-btn {
-        font-size: 5vw!important;
-        display:block;
-        width:50%;
+    .ch-gridd {
+    	margin: 20px 0 ;
+    	padding: 0px;
+    	list-style: none;
+    	display: block;
+    	text-align: center;
+    	width: 100%;
+    }
+
+    .walter{
+        font-size:1.1em!important;
+        text-align:left;
     }
 
     .btn-cv{
@@ -963,96 +793,111 @@ p{
         font-family: 'Sigmar One', cursive!important;
     }
 
-#contact{
-    padding-top: 10px;
-}
+    .ch-grid {
+	    margin: 40px 0 0 0;
+	    padding: 0;
+	    list-style: none;
+	    display: block;
+	    text-align: center;
+	    width: 100%;
+    }
 
-footer {
-    padding-left: 5px!important;
-    padding-right: 5px!important;
-}
+    .ch-grid li {
+    	width: 250px;
+    	height: 250px;
+    	display: inline-block;
+    	margin: 10px;
+        padding:10px 0;
+    }
 
-.ch-grid {
-	margin: 40px 0 0 0;
-	padding: 0;
-	list-style: none;
-	display: block;
-	text-align: center;
-	width: 100%;
-}
+    .ch-item {
+    	width: 100%;
+    	height: 100%;
+    	border-radius: 50%;
+    	overflow: hidden;
+    	position: relative;
+    	cursor: default;
+    	box-shadow:
+    		inset 0 0 0 16px rgba(255,255,255,0.6),
+    		0 1px 2px rgba(0,0,0,0.1);
+    	transition: all 0.4s ease-in-out;
+    }
 
-.ch-grid li {
-	width: 250px;
-	height: 250px;
-	display: inline-block;
-	margin: 10px;
-    padding:10px 0;
-}
+    .ch-info {
+    	position: absolute;
+    	background: #4e4b4b;
+    	width: inherit;
+    	height: inherit;
+    	border-radius: 50%;
+    	overflow: hidden;
+    	opacity: 0;
+    	transition: all 0.4s ease-in-out;
+    	transform: scale(0);
+    }
 
-/*demo1*/
-.ch-item {
-	width: 100%;
-	height: 100%;
-	border-radius: 50%;
-	overflow: hidden;
-	position: relative;
-	cursor: default;
-	box-shadow:
-		inset 0 0 0 16px rgba(255,255,255,0.6),
-		0 1px 2px rgba(0,0,0,0.1);
-	transition: all 0.4s ease-in-out;
-}
+    .ch-info h3 {
+    	color: #fff;
+    	letter-spacing: 1px;
+    	font-size: 18px;
+    	margin: 0 10px;
+    	padding: 40px 0 0 0;
+    	height: 100px;
+    	font-family: 'Walter Turncoat', cursive;
+    	text-shadow:
+    		0 0 1px #fff,
+    		0 1px 2px rgba(0,0,0,0.3);
+    }
 
-.ch-info {
-	position: absolute;
-	background: #4e4b4b;
-	width: inherit;
-	height: inherit;
-	border-radius: 50%;
-	overflow: hidden;
-	opacity: 0;
-	transition: all 0.4s ease-in-out;
-	transform: scale(0);
-}
+    .img-hover div:hover {
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -webkit-transform:translateZ(0) scale(1.20); /* Safari and Chrome */
+        -moz-transform:scale(1.20); /* Firefox */
+        -ms-transform:scale(1.20); /* IE 9 */
+        -o-transform:translatZ(0) scale(1.20); /* Opera */
+        transform:translatZ(0) scale(1.20);
+    }
 
-.ch-info h3 {
-	color: #fff;
-	letter-spacing: 1px;
-	font-size: 18px;
-	margin: 0 10px;
-	padding: 40px 0 0 0;
-	height: 100px;
-	font-family: 'Walter Turncoat', cursive;
-	text-shadow:
-		0 0 1px #fff,
-		0 1px 2px rgba(0,0,0,0.3);
-}
+    /*************************** FOOTER *************************/
+    #contact{
+        padding-top: 10px;
+    }
 
-.img-hover div:hover {
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -webkit-transform:translateZ(0) scale(1.20); /* Safari and Chrome */
-    -moz-transform:scale(1.20); /* Firefox */
-    -ms-transform:scale(1.20); /* IE 9 */
-    -o-transform:translatZ(0) scale(1.20); /* Opera */
-    transform:translatZ(0) scale(1.20);
-}
+    footer {
+        padding-left: 5px!important;
+        padding-right: 5px!important;
+    }
 
+    .contacticon {
+        display:inline-block;
+        font-size: 1.3em;
+        text-align: center;
+    }
+
+    .mail {
+        padding-top: 10px;
+        font-size: 0.9em;
+        text-align: center;
+    }
+
+    .section-heading{
+        text-align: center;
+        font-size: 1.3em;
+    }
 }
 
 
     /*/////////////////////////////screen between 500px-1023px////////////////////////*/
     @media screen and (min-width: 500px) and (max-width: 1023px) {
-        .kbd2{
-            font-size:5vw!important;
-        }
-
         .navbar-btn {
             font-size: 5vw!important;
             display:block;
             width:50%;
         }
 
+        .kbd2{
+            font-size:5vw!important;
+        }
     }
 
 
