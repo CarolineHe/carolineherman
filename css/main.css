@@ -456,7 +456,7 @@ footer {
 
 .contacticon {
     display:inline-block;
-    font-size: 1.8em;
+    font-size: 1.4em;
     text-align: center;
 }
 
@@ -776,7 +776,14 @@ color:rgb(127, 207, 165)!important;
 .content2{
     font-family: 'Walter Turncoat', cursive;
     padding: 20px;
+}
 
+.p-left p{
+    text-align: left;
+}
+
+.p-right{
+    text-align: right!important;
 }
 
 h2, h3{

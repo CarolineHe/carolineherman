@@ -17,9 +17,9 @@
     <link rel="stylesheet" href="http://textillate.js.org/assets/animate.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="css/font-awesome.css" />
-<link rel="stylesheet" href="css/font-awesome-animation.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/font-awesome-animation.min.css">
 
 
 </head>
@@ -57,11 +57,87 @@
         </div>
 
 
-        <div class="container-fluid content2">
+        <div class="container-fluid content2 p-left">
 
             <h2 class="right"> Mon Curriculum Vitae </h2>
-            <p class="right">Née le 20 Septembre 1978 - Célibataire - 2 enfants - Permis B </p>
+            <p class="p-right">Née le 20 Septembre 1978 - Célibataire - 2 enfants - Permis B </p>
             <br><a href="img/CV.pdf">Téléchargez le CV</a><br>
+
+            <br>
+            <div class="container-fluid">
+
+                <div class="slideshow center row white">
+                    <ul>
+                        <li>
+                            <img src="img/logos/w3cValid-L.png" alt="logo w3c validator" width="100" height="50" />
+                        </li>
+                        <li>
+                            <img src="img/logos/linux.png" alt="logo linux" width="100" height="50" />
+                        </li>
+                        <li>
+                            <img src="img/logos/git.png" alt="logo git" width="100" height="50" />
+                        </li>
+                        <li>
+                            <img src="img/logos/github.png" alt="logo github" width="100" height="50" />
+                        </li>
+                        <li>
+                            <img src="img/logos/logohtmlcssjs.png" alt="logos html css javascript" width="100" height="50" />
+                        </li>
+                        <li>
+                            <img src="img/logos/bootstrap.png" alt="logo bootstrap" width="100" height="50" />
+                        </li>
+                        <li>
+                            <img src="img/logos/foundation.png" alt="logo foundation" width="100" height="50" />
+                        </li>
+                        <li>
+                            <img src="img/logos/responsivedesign.png" alt="logo responsive design" width="100" height="50" />
+                        </li>
+                        <li>
+                            <img src="img/logos/gimp.png" alt="logo gimp" width="100" height="50" />
+                        </li>
+                        <li>
+                            <img src="img/logos/jquery.png" alt="logo jquery" width="100" height="50" />
+                        </li>
+                        <li>
+                            <img src="img/logos/nginx.png" alt="logo nginx" width="100" height="50" />
+                        </li>
+                        <li>
+                            <img src="img/logos/mysql.png" alt="logo mysql" width="100" height="50" />
+                        </li>
+                        <li>
+                            <img src="img/logos/postgresql.png" alt="logo postgresql" width="100" height="50" />
+                        </li>
+                        <li>
+                            <img src="img/logos/mongodb.png" alt="logo mongodb" width="100" height="50" />
+                        </li>
+                        <li>
+                            <img src="img/logos/meteor.png" alt="logo meteor" width="100" height="50" />
+                        </li>
+                        <li>
+                            <img src="img/logos/ruby.png" alt="logo ruby" width="100" height="50" />
+                        </li>
+                        <li>
+                            <img src="img/logos/rails.png" alt="logo ruby on rails" width="100" height="50" />
+                        </li>
+                        <li>
+                            <img src="img/logos/filezilla.png" alt="logo filezilla" width="100" height="50" />
+                        </li>
+                        <li>
+                            <img src="img/logos/wordpress.png" alt="logo wordpress" width="100" height="50" />
+                        </li>
+                        <li>
+                            <img src="img/logos/trello.png" alt="logo trello" width="100" height="50" />
+                        </li>
+                        <li>
+                            <img src="img/logos/mailchimp.png" alt="logo mailchimp" width="100" height="50" />
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+            <br>
+
             <h3><kbd class="kbd2">  Expériences et Formations professionnelles  </kbd></h3>
 
             <br>
@@ -184,13 +260,35 @@
 
             </footer>
 
-    </div>
 
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+
+
+
+    <script type="text/javascript">
+        (function($) {
+            setInterval(function() {
+                $(".slideshow ul li:first-child").animate({
+                    "margin-left": -350
+                }, 800, function() {
+                    $(this).css("margin-left", 0).appendTo(".slideshow ul");
+                });
+            }, 1500);
+        })(jQuery);
+    </script>
+
+    <script>
+        $(window).resize(function() {
+            $('h1, h2, h3, h4, p, i').css('z-index', 'auto'); //auto reflow
+        });
+    </script>
 
 
     <script src="js/vendor/jquery-1.12.0.min.js"></script>
     <script src="js/jquery.lettering.js"></script>
     <script src="js/jquery.textillate.js"></script>
+
+
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     <script src="js/bootstrap.js"></script>
 
@@ -200,17 +298,23 @@
 
         });
     </script>
-
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-      ga('create', 'UA-75192431-1', 'auto');
-      ga('send', 'pageview');
-
+        ga('create', 'UA-75192431-1', 'auto');
+        ga('send', 'pageview');
     </script>
+</div>
 </body>
 
 </html>
