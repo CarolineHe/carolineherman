@@ -768,6 +768,20 @@ p{
     width: auto!important;
 }
 
+.style-link{
+    font-weight: bold;
+    color:#333;
+}
+
+.style-link:hover{
+    color:rgb(127, 207, 165);
+    text-decoration: none;
+}
+
+.fa-download{
+    color:#333;
+}
+
 kbd{
 font-family: 'Walter Turncoat', cursive!important;
 color:rgb(127, 207, 165)!important;
