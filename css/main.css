@@ -890,9 +890,14 @@ color:rgb(127, 207, 165)!important;
     /*/////////////////////////////screen between 500px-1023px////////////////////////*/
     @media screen and (min-width: 500px) and (max-width: 1023px) {
         .navbar-btn {
-            font-size: 5vw!important;
-            display:block;
-            width:50%;
+            font-size: 1.8vw!important;
+            display:inline;
+            width:30%;
+            padding-left:0 20px!important;
+        }
+
+        .tlt{
+            text-align: center!important;
         }
 
         .kbd2{
@@ -907,6 +912,7 @@ color:rgb(127, 207, 165)!important;
              font-size:1.5em;
              text-align: justify;
          }
+
     }
 
 
