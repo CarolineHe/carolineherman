@@ -642,6 +642,16 @@ overflow:hidden;
     text-decoration: none;
 }
 
+.style-link2 {
+    color:#333;
+    text-decoration: none;
+}
+
+.style-link2:hover{
+    color:rgb(127, 207, 165);
+    text-decoration: none;
+}
+
 .fa-download{
     color:#333;
 }
