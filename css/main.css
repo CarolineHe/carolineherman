@@ -647,7 +647,13 @@ overflow:hidden;
     text-decoration: none;
 }
 
-.style-link2:hover{
+.style-link3 {
+    display:none;
+    color:#333;
+}
+
+.style-link2:hover .style-link3 {
+    display:block;
     color:rgb(127, 207, 165);
     text-decoration: none;
 }
